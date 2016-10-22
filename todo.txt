@@ -1,0 +1,34 @@
+Filterer:
+    - include all file types in the filter
+    - mac version
+        - bash? python?
+    - linux version
+        -bash? python?
+    - possibly async
+    - provide sounds
+        - white noise
+        - other noises
+            - brown?
+            - i dont even know who listens to white noise like really
+        - nature noises
+            - how can we find CC0 nature sounds
+            - maybe we should go record some
+
+Website:
+    -main site
+        - science bit
+            - steal from portfolio
+        - design bit
+            - Alex can do whatever, just no polymer
+        - legal
+            - I feel like we might get sued if we promise to cure tinnitus and it doesn't work
+    -frequency chooser
+        - Alex can do this too, I think he wants it
+
+Documentation:
+    - science bit
+        - just steal the research papers
+        - MLA inline citations
+    - boring bit
+        - excel hour page
+        - the other 8 pages

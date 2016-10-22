@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+
+</head>
+<body>
+<script>
+    var freq = 10000;
+
+
+    //we have different methods of finding the low and high
+    //we can use an octave, as reviewed by https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3002906/
+    var lower = Math.floor((2/3) * freq);
+    var upper = lower * 2;
+    console.log(upper/1000 + "k-" + lower/1000 + "k");
+
+    //we could use two ERBs centered on the frequency, as used by http://www.audionotch.com/faq#what
+    var band = 107.94*(freq/1000) +24.7;
+    lower = freq - band;
+    upper = freq + band;
+    console.log(upper/1000 + "k-" + lower/1000 + "k");
+</script>
+</body>
+</html>
